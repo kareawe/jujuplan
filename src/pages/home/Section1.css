@@ -1,0 +1,104 @@
+.search-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 4em;
+}
+
+.search-input {
+  transition: all 0.5s ease-out;
+  width: 25em;
+  padding-left: 30px;
+  border-radius: 10px;
+  padding: 40px 40px;
+  font-size: 1.25rem;
+  visibility: visible;
+  position: absolute; /* 검색 결과에 의해 위치가 변하지 않도록 절대 위치 사용 */
+  z-index: 2;
+  top: 0; /* 컨테이너 상단에 위치 */
+  opacity: 0;
+  height: 5rem; /* 초기 높이 설정 */
+}
+
+.search-input-active {
+  opacity: 1;
+}
+
+.search-results {
+  width: 31em;
+  max-height: 30rem;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 5.5rem;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.result-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* 지역 텍스트 스타일링 */
+.result-item .location {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* 국가 텍스트 스타일링 */
+.result-item .country {
+  color: #757575;
+  font-size: 0.875rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Viewport의 100% 높이 */
+  text-align: center;
+}
+
+/* Section1.css */
+
+/* 요소가 화면에 보일 때 */
+.fade-in {
+  opacity: 0; /* 기본적으로 투명 */
+  transform: translateY(20px); /* 시작 위치 */
+  transition: opacity 1s ease-in, transform 1s ease-in; /* 애니메이션 */
+}
+
+/* 요소가 화면에 보일 때 */
+.fade-in.in-view {
+  opacity: 1; /* 완전히 불투명 */
+  transform: translateY(0); /* 원래 위치 */
+}
+
+.section1 {
+  height: 100vh; /* 전체 화면 높이 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* 스크롤 시 나타나는 애니메이션 */
+.slide-in-left {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

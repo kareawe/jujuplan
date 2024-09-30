@@ -1,0 +1,83 @@
+.section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.cards {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px; /* 이미지 둥근 모서리 추가 */
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 10px; /* 추가된 패딩 */
+  }
+  .card-image img {
+    width: 100%;
+    max-height: 200px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+.card-info h3 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.card-info p {
+  color: gray;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 4em;
+  color: #333;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+    font-size: 2em;
+  }
+}
+
+.icon-wrapper:hover {
+  color: #000100;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Add some styling to the image */
+}
+
+/* Section2.css */

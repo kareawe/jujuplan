@@ -1,0 +1,49 @@
+/* Plan.jsx */
+body{
+  -webkit-user-select: none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+.map{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  top:0;
+  right: 0%;
+  z-index:1;
+}
+
+.plan-container {
+  display: flex;
+}
+
+/* StarRating.css */
+.star {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.star svg {
+  width: 100%;
+  height: 100%;
+}
+
+.star-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.star-fill svg {
+  width: 24px;
+  height: 24px;
+  fill: #fbbf24; /* Tailwind's yellow-500 color */
+}
