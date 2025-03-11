@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Jeju Good Business Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+The Jeju Good Business Project aims to promote socially responsible businesses (referred to as "Good Businesses") in Jeju Island. This website helps users easily discover and learn more about businesses that contribute to the community and practice sustainable, ethical, and social responsibility. The site also provides valuable insights into each business’s social impact and highlights its positive contributions to the local community.
 
-## Available Scripts
+## Features
+- **Business Search**: Users can search for Good Businesses in Jeju based on categories, location, or keywords.
+- **Detailed Business Information**: Each business profile includes information about its operations, social responsibility efforts, community involvement, and impact.
+- **Map Display**: All listed Good Businesses are shown on an interactive map for easy location reference.
+- **User Feedback and Reviews**: Users can leave reviews, share experiences, and provide feedback about their visits, contributing to the credibility and visibility of each business.
+- **Business Sorting and Filtering**: Users can filter businesses based on their social responsibility practices, business type, and geographic location.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript (React.js)
+- **Backend**: Node.js (Express)
+- **Database**: MongoDB
+- **API**: Google Maps API for interactive maps
+- **Others**: Bootstrap for responsive design
 
-### `npm start`
+## Project Objectives
+The primary goal of this project is to raise awareness about socially responsible businesses in Jeju Island and encourage consumers to support businesses that contribute positively to society. By showcasing the efforts of these businesses, the project aims to promote responsible consumption and social impact.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Specific objectives include:
+- Highlighting businesses that prioritize ethical practices, environmental sustainability, and community well-being.
+- Allowing users to easily find businesses that align with their values and preferences.
+- Creating a platform where consumers can share their experiences and help others make informed decisions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation Guide
+To set up the project locally, follow these steps:
 
-### `npm test`
+### 1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/jeju-good-business.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
